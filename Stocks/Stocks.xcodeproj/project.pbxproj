@@ -14,6 +14,20 @@
 		D11EC4BD2860A04300ED3FD6 /* StocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4BC2860A04300ED3FD6 /* StocksTests.swift */; };
 		D11EC4C72860A04300ED3FD6 /* StocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4C62860A04300ED3FD6 /* StocksUITests.swift */; };
 		D11EC4C92860A04300ED3FD6 /* StocksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4C82860A04300ED3FD6 /* StocksUITestsLaunchTests.swift */; };
+		D11EC4D72860A57200ED3FD6 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4D62860A57200ED3FD6 /* Webservice.swift */; };
+		D11EC4D82860A57200ED3FD6 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4D62860A57200ED3FD6 /* Webservice.swift */; };
+		D11EC4DA2860A5D400ED3FD6 /* WebServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4D92860A5D400ED3FD6 /* WebServiceConfiguration.swift */; };
+		D11EC4DB2860A5D400ED3FD6 /* WebServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4D92860A5D400ED3FD6 /* WebServiceConfiguration.swift */; };
+		D11EC4DD2860A5F800ED3FD6 /* WebServiceLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4DC2860A5F800ED3FD6 /* WebServiceLogger.swift */; };
+		D11EC4DE2860A5F800ED3FD6 /* WebServiceLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4DC2860A5F800ED3FD6 /* WebServiceLogger.swift */; };
+		D11EC4E02860A61D00ED3FD6 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4DF2860A61D00ED3FD6 /* ParameterEncoding.swift */; };
+		D11EC4E12860A61D00ED3FD6 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4DF2860A61D00ED3FD6 /* ParameterEncoding.swift */; };
+		D11EC4E32860A64900ED3FD6 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4E22860A64900ED3FD6 /* URLConvertible.swift */; };
+		D11EC4E42860A64900ED3FD6 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4E22860A64900ED3FD6 /* URLConvertible.swift */; };
+		D11EC4E62860A66F00ED3FD6 /* CustomEncoderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4E52860A66F00ED3FD6 /* CustomEncoderError.swift */; };
+		D11EC4E72860A66F00ED3FD6 /* CustomEncoderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4E52860A66F00ED3FD6 /* CustomEncoderError.swift */; };
+		D11EC4EA2860A6CB00ED3FD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4E92860A6CB00ED3FD6 /* Constants.swift */; };
+		D11EC4EB2860A6CB00ED3FD6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EC4E92860A6CB00ED3FD6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,13 @@
 		D11EC4C22860A04300ED3FD6 /* StocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11EC4C62860A04300ED3FD6 /* StocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksUITests.swift; sourceTree = "<group>"; };
 		D11EC4C82860A04300ED3FD6 /* StocksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D11EC4D62860A57200ED3FD6 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D11EC4D92860A5D400ED3FD6 /* WebServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceConfiguration.swift; sourceTree = "<group>"; };
+		D11EC4DC2860A5F800ED3FD6 /* WebServiceLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceLogger.swift; sourceTree = "<group>"; };
+		D11EC4DF2860A61D00ED3FD6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		D11EC4E22860A64900ED3FD6 /* URLConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
+		D11EC4E52860A66F00ED3FD6 /* CustomEncoderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEncoderError.swift; sourceTree = "<group>"; };
+		D11EC4E92860A6CB00ED3FD6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +117,8 @@
 			children = (
 				D11EC4AB2860A04000ED3FD6 /* StocksApp.swift */,
 				D11EC4AD2860A04000ED3FD6 /* ContentView.swift */,
+				D11EC4D52860A54F00ED3FD6 /* Webservices */,
+				D11EC4E82860A6AF00ED3FD6 /* Constants */,
 				D11EC4AF2860A04300ED3FD6 /* Assets.xcassets */,
 				D11EC4B12860A04300ED3FD6 /* Preview Content */,
 			);
@@ -125,6 +148,27 @@
 				D11EC4C82860A04300ED3FD6 /* StocksUITestsLaunchTests.swift */,
 			);
 			path = StocksUITests;
+			sourceTree = "<group>";
+		};
+		D11EC4D52860A54F00ED3FD6 /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				D11EC4D62860A57200ED3FD6 /* Webservice.swift */,
+				D11EC4D92860A5D400ED3FD6 /* WebServiceConfiguration.swift */,
+				D11EC4DC2860A5F800ED3FD6 /* WebServiceLogger.swift */,
+				D11EC4DF2860A61D00ED3FD6 /* ParameterEncoding.swift */,
+				D11EC4E22860A64900ED3FD6 /* URLConvertible.swift */,
+				D11EC4E52860A66F00ED3FD6 /* CustomEncoderError.swift */,
+			);
+			path = Webservices;
+			sourceTree = "<group>";
+		};
+		D11EC4E82860A6AF00ED3FD6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D11EC4E92860A6CB00ED3FD6 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11EC4E62860A66F00ED3FD6 /* CustomEncoderError.swift in Sources */,
+				D11EC4E32860A64900ED3FD6 /* URLConvertible.swift in Sources */,
+				D11EC4E02860A61D00ED3FD6 /* ParameterEncoding.swift in Sources */,
 				D11EC4AE2860A04000ED3FD6 /* ContentView.swift in Sources */,
 				D11EC4AC2860A04000ED3FD6 /* StocksApp.swift in Sources */,
+				D11EC4D72860A57200ED3FD6 /* Webservice.swift in Sources */,
+				D11EC4DA2860A5D400ED3FD6 /* WebServiceConfiguration.swift in Sources */,
+				D11EC4DD2860A5F800ED3FD6 /* WebServiceLogger.swift in Sources */,
+				D11EC4EA2860A6CB00ED3FD6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11EC4DE2860A5F800ED3FD6 /* WebServiceLogger.swift in Sources */,
+				D11EC4E42860A64900ED3FD6 /* URLConvertible.swift in Sources */,
+				D11EC4D82860A57200ED3FD6 /* Webservice.swift in Sources */,
+				D11EC4E12860A61D00ED3FD6 /* ParameterEncoding.swift in Sources */,
+				D11EC4E72860A66F00ED3FD6 /* CustomEncoderError.swift in Sources */,
+				D11EC4DB2860A5D400ED3FD6 /* WebServiceConfiguration.swift in Sources */,
 				D11EC4BD2860A04300ED3FD6 /* StocksTests.swift in Sources */,
+				D11EC4EB2860A6CB00ED3FD6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
